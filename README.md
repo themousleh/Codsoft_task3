@@ -35,3 +35,9 @@ You can install the required packages using pip:
 
 ```bash
 pip install pandas scikit-learn joblib Pillow
+
+
+## Training the Model
+- Ensure iris.csv is in the project directory.
+- Run train_model.py to train and save the model:
+python train_model.py
