@@ -35,9 +35,37 @@ You can install the required packages using pip:
 
 ```bash
 pip install pandas scikit-learn joblib Pillow
-
+```
 
 ## Training the Model
 - Ensure iris.csv is in the project directory.
 - Run train_model.py to train and save the model:
+```bash
 python train_model.py
+```
+
+## Running the GUI Application
+- Ensure logistic_regression_model.pkl and image files (iris_setosa.jpg, iris_versicolor.jpg, iris_virginica.jpg) are in the same directory as app.py.
+- Run app.py:
+```bash
+python app.py
+```
+This will open a GUI application where you can input flower measurements and classify them.
+
+## Usage
+1. Enter sepal length, sepal width, petal length, and petal width into the GUI.
+2. Click "Predict" to see the classification result and corresponding flower image.
+
+## Troubleshooting
+Deprecation Warnings: Update your packages if you see warnings about deprecated features.
+Error Handling: Ensure all required files are in the correct location.
+
+## Contributing
+Feel free to contribute to this project by submitting issues or pull requests.
+
+## Acknowledgments
+The Iris dataset is a well-known benchmark dataset for classification tasks.
+Logistic Regression and Tkinter were used to develop the model and GUI.
+
+## Contact
+For questions or feedback, please contact [Issa El Mousleh](mailto:issaelmousleh@outlook.com)
