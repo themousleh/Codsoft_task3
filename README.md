@@ -1,6 +1,3 @@
-Sure, here is the updated `README.md` with the changes and format similar to the one you provided:
-
-```markdown
 # Iris Flower Classification Project
 
 ## Overview
